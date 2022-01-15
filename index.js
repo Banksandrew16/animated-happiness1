@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
     user: "root",
 
     // Your password
-    password: "",
+    password: "Ab278313",
 
     // Name of the Database
     database: "employee_tracker"
@@ -250,10 +250,6 @@ const updateEmployeeRole = () => {
 connection.connect((err) => {
     if (err) throw err;
 
-    console.log("\n\n ____  __  __  ____  __    _____  _  _  ____  ____    ____  ____    __    ___  _  _  ____  ____ ")
-    console.log("( ___)(  \\/  )(  _ \\(  )  (  _  )( \\/ )( ___)( ___)  (_  _)(  _ \\  /__\\  / __)( )/ )( ___)(  _ \\ ")
-    console.log(" )__)  )    (  )___/ )(__  )(_)(  \\  /  )__)  )__)     )(   )   / /(__)\\( (__  )  (  )__)  )   / ")
-    console.log("(____)(_/\\/\\_)(__)  (____)(_____) (__) (____)(____)   (__) (_)\\_)(__)(__)\\___)(_)\\_)(____)(_)\\_) \n\n")
-
+    console.log("\n\n ") 
     choice();
 });
